@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sablehash"
+version = "0.1.0"
+description = "Pure-Python EIP-712 typed-data hashing"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+dependencies = ["pycryptodome>=3.19"]
+
+[tool.setuptools]
+packages = ["typedhash"]
